@@ -1,0 +1,98 @@
+From ec8db3cd9ec70bfdde852806f16c8413a67eed34 Mon Sep 17 00:00:00 2001
+From: nikita <nikitajadha4487@gmail.com>
+Date: Wed, 8 Oct 2025 21:44:38 +0800
+Subject: [PATCH] applied patch manually
+
+---
+ 0001-new-files-added.patch | 33 +++++++++++++++++++++++++++++++++
+ added.patch                |  0
+ file1.c                    |  1 +
+ file1.c.rej                |  6 ++++++
+ myfix.patch                |  9 +++++++++
+ 5 files changed, 49 insertions(+)
+ create mode 100644 0001-new-files-added.patch
+ create mode 100644 added.patch
+ create mode 100644 file1.c.rej
+ create mode 100644 myfix.patch
+
+diff --git a/0001-new-files-added.patch b/0001-new-files-added.patch
+new file mode 100644
+index 0000000..a0449c8
+--- /dev/null
++++ b/0001-new-files-added.patch
+@@ -0,0 +1,33 @@
++From 13cb5e342ab45624fa32f51f0aa8b872e91f9828 Mon Sep 17 00:00:00 2001
++From: nikita <nikitajadha4487@gmail.com>
++Date: Wed, 8 Oct 2025 21:27:11 +0800
++Subject: [PATCH] new files added
++
++---
++ file1.c | 3 +++
++ file2.c | 3 +++
++ 2 files changed, 6 insertions(+)
++ create mode 100644 file1.c
++ create mode 100644 file2.c
++
++diff --git a/file1.c b/file1.c
++new file mode 100644
++index 0000000..38008bf
++--- /dev/null
+++++ b/file1.c
++@@ -0,0 +1,3 @@
+++hello india
+++what are u doing
+++bye
++diff --git a/file2.c b/file2.c
++new file mode 100644
++index 0000000..dd41377
++--- /dev/null
+++++ b/file2.c
++@@ -0,0 +1,3 @@
+++hello india
+++how are u
+++namste
++-- 
++2.47.3
++
+diff --git a/added.patch b/added.patch
+new file mode 100644
+index 0000000..e69de29
+diff --git a/file1.c b/file1.c
+index 38008bf..0ec89da 100644
+--- a/file1.c
++++ b/file1.c
+@@ -1,3 +1,4 @@
+ hello india
+ what are u doing
+ bye
++i will play with u from next week
+diff --git a/file1.c.rej b/file1.c.rej
+new file mode 100644
+index 0000000..1b2e4d2
+--- /dev/null
++++ b/file1.c.rej
+@@ -0,0 +1,6 @@
++diff a/file1.c b/file1.c	(rejected hunks)
++@@ -1,3 +1,4 @@
++ hello india
++ what are u doing
++ bye
+++i will play with u from next week
+diff --git a/myfix.patch b/myfix.patch
+new file mode 100644
+index 0000000..519be97
+--- /dev/null
++++ b/myfix.patch
+@@ -0,0 +1,9 @@
++diff --git a/file1.c b/file1.c
++index 38008bf..0ec89da 100644
++--- a/file1.c
+++++ b/file1.c
++@@ -1,3 +1,4 @@
++ hello india
++ what are u doing
++ bye
+++i will play with u from next week
+-- 
+2.47.3
+
