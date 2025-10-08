@@ -1,7 +1,4 @@
-diff --git a/myfix.patch b/myfix.patch
-index 519be97..e69de29 100644
---- a/myfix.patch
-+++ b/myfix.patch
+diff a/myfix.patch b/myfix.patch	(rejected hunks)
 @@ -1,9 +0,0 @@
 -diff --git a/file1.c b/file1.c
 -index 38008bf..0ec89da 100644
