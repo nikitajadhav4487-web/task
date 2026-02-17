@@ -4,9 +4,7 @@
 
 void main()
 {
-	char s[20];
-	printf("enter the string\n");
-	scanf("%[^\n]",s);
+	char s[20]="madam";
 
 	int len=strlen(s);
 int i;
