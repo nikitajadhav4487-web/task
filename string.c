@@ -17,5 +17,6 @@ int i;
 		printf("string is palindrom\n");
 	else
 		printf("String is not palindron\n");
+	return 0;
 }
 
