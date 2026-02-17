@@ -2,7 +2,7 @@
 #include<string.h>
 #include<stdlib.h>
 
-void main()
+int main()
 {
 	char s[20]="madam";
 
